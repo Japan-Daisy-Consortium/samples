@@ -1,0 +1,684 @@
+@charset "UTF-8";
+
+.vrtl .hltr a {
+  text-decoration: underline;
+}
+
+.vrtl .hltr img.gaiji,
+.vrtl .hltr img.gaiji-line,
+.vrtl .hltr img.gaiji-wide {
+  vertical-align: text-bottom;
+}
+
+.vrtl .hltr .fit {
+  vertical-align: top;
+}
+
+.vrtl .hltr .kogaki {
+  padding:        0 0.15em 0 0.1em;
+  vertical-align: baseline;
+}
+
+.vrtl .hltr hr {
+  margin:       0.5em 0;
+  border-style: solid none none none;
+}
+
+.vrtl .hltr .em-line {
+  text-decoration: underline;
+}
+
+.vrtl .hltr .em-line-outside {
+  text-decoration: overline;
+}
+
+.hltr .k-solid-start,       .vrtl .hltr .k-solid-start       { border-style: none none none solid;  }
+.hltr .k-solid-before,      .vrtl .hltr .k-solid-before      { border-style: solid none none none;  }
+.hltr .k-solid-end,         .vrtl .hltr .k-solid-end         { border-style: none solid none none;  }
+.hltr .k-solid-after,       .vrtl .hltr .k-solid-after       { border-style: none none solid none;  }
+.hltr .k-solid-startend,    .vrtl .hltr .k-solid-startend    { border-style: none solid none solid; }
+.hltr .k-solid-beforeafter, .vrtl .hltr .k-solid-beforeafter { border-style: solid none solid none; }
+
+.hltr .k-dotted-start,       .vrtl .hltr .k-dotted-start       { border-style: none none none dotted;   }
+.hltr .k-dotted-before,      .vrtl .hltr .k-dotted-before      { border-style: dotted none none none;   }
+.hltr .k-dotted-end,         .vrtl .hltr .k-dotted-end         { border-style: none dotted none none;   }
+.hltr .k-dotted-after,       .vrtl .hltr .k-dotted-after       { border-style: none none dotted none;   }
+.hltr .k-dotted-startend,    .vrtl .hltr .k-dotted-startend    { border-style: none dotted none dotted; }
+.hltr .k-dotted-beforeafter, .vrtl .hltr .k-dotted-beforeafter { border-style: dotted none dotted none; }
+
+.hltr .k-double-start,       .vrtl .hltr .k-double-start       { border-style: none none none double;   }
+.hltr .k-double-before,      .vrtl .hltr .k-double-before      { border-style: double none none none;   }
+.hltr .k-double-end,         .vrtl .hltr .k-double-end         { border-style: none double none none;   }
+.hltr .k-double-after,       .vrtl .hltr .k-double-after       { border-style: none none double none;   }
+.hltr .k-double-startend,    .vrtl .hltr .k-double-startend    { border-style: none double none double; }
+.hltr .k-double-beforeafter, .vrtl .hltr .k-double-beforeafter { border-style: double none double none; }
+
+.hltr .k-dashed-start,       .vrtl .hltr .k-dashed-start       { border-style: none none none dashed;   }
+.hltr .k-dashed-before,      .vrtl .hltr .k-dashed-before      { border-style: dashed none none none;   }
+.hltr .k-dashed-end,         .vrtl .hltr .k-dashed-end         { border-style: none dashed none none;   }
+.hltr .k-dashed-after,       .vrtl .hltr .k-dashed-after       { border-style: none none dashed none;   }
+.hltr .k-dashed-startend,    .vrtl .hltr .k-dashed-startend    { border-style: none dashed none dashed; }
+.hltr .k-dashed-beforeafter, .vrtl .hltr .k-dashed-beforeafter { border-style: dashed none dashed none; }
+
+/* .vrtl .hltr [class|="h-indent"] { padding-top: 0; } */
+.vrtl .hltr .h-indent-1em, .vrtl .hltr .h-indent-2em, .vrtl .hltr .h-indent-3em,
+.vrtl .hltr .h-indent-4em, .vrtl .hltr .h-indent-5em, .vrtl .hltr .h-indent-6em,
+.vrtl .hltr .h-indent-7em, .vrtl .hltr .h-indent-8em, .vrtl .hltr .h-indent-9em,
+.vrtl .hltr .h-indent-10em {
+  padding-top: 0;
+}
+
+/* .vrtl .hltr [class|="start"] { margin-top:  0; } */
+.vrtl .hltr .start-0em25, .vrtl .hltr .start-0em50, .vrtl .hltr .start-0em75,
+.vrtl .hltr .start-1em,   .vrtl .hltr .start-1em25, .vrtl .hltr .start-1em50,
+.vrtl .hltr .start-1em75, .vrtl .hltr .start-2em,   .vrtl .hltr .start-2em50,
+.vrtl .hltr .start-3em,   .vrtl .hltr .start-4em,   .vrtl .hltr .start-5em,
+.vrtl .hltr .start-6em,   .vrtl .hltr .start-7em,   .vrtl .hltr .start-8em,
+.vrtl .hltr .start-9em,   .vrtl .hltr .start-10em {
+  margin-top: 0;
+}
+
+/* .vrtl .hltr [class|="end"] { margin-bottom: 0; } */
+.vrtl .hltr .end-0em25, .vrtl .hltr .end-0em50, .vrtl .hltr .end-0em75,
+.vrtl .hltr .end-1em,   .vrtl .hltr .end-1em25, .vrtl .hltr .end-1em50,
+.vrtl .hltr .end-1em75, .vrtl .hltr .end-2em,   .vrtl .hltr .end-2em50,
+.vrtl .hltr .end-3em,   .vrtl .hltr .end-4em,   .vrtl .hltr .end-5em,
+.vrtl .hltr .end-6em,   .vrtl .hltr .end-7em,   .vrtl .hltr .end-8em,
+.vrtl .hltr .end-9em,   .vrtl .hltr .end-10em {
+  margin-bottom: 0;
+}
+
+.hltr .m-start-auto   { margin-left: auto; }
+.hltr .m-start-0,
+.hltr .m-start-0em,
+.hltr .m-start-000per { margin-left: 0; }
+
+.hltr .m-start-005per { margin-left:  5%; }
+.hltr .m-start-010per { margin-left: 10%; }
+.hltr .m-start-015per { margin-left: 15%; }
+.hltr .m-start-020per { margin-left: 20%; }
+.hltr .m-start-025per { margin-left: 25%; }
+.hltr .m-start-030per { margin-left: 30%; }
+.hltr .m-start-033per { margin-left: 33%; }
+.hltr .m-start-040per { margin-left: 40%; }
+.hltr .m-start-050per { margin-left: 50%; }
+.hltr .m-start-060per { margin-left: 60%; }
+.hltr .m-start-067per { margin-left: 67%; }
+.hltr .m-start-070per { margin-left: 70%; }
+.hltr .m-start-075per { margin-left: 75%; }
+.hltr .m-start-080per { margin-left: 80%; }
+.hltr .m-start-090per { margin-left: 90%; }
+
+.hltr .m-start-0em25 { margin-left: 0.25em; }
+.hltr .m-start-0em50 { margin-left: 0.50em; }
+.hltr .m-start-0em75 { margin-left: 0.75em; }
+.hltr .m-start-1em   { margin-left: 1.00em; }
+.hltr .m-start-1em25 { margin-left: 1.25em; }
+.hltr .m-start-1em50 { margin-left: 1.50em; }
+.hltr .m-start-1em75 { margin-left: 1.75em; }
+.hltr .m-start-2em   { margin-left: 2.00em; }
+.hltr .m-start-2em50 { margin-left: 2.50em; }
+.hltr .m-start-3em   { margin-left: 3.00em; }
+.hltr .m-start-4em   { margin-left: 4.00em; }
+.hltr .m-start-5em   { margin-left: 5.00em; }
+.hltr .m-start-5em25 { margin-left: 5.25em; }
+
+/* .vrtl .hltr [class|="m-start"] { margin-top:  0; } */
+.vrtl .hltr .m-start-auto,
+.vrtl .hltr .m-start-005per, .vrtl .hltr .m-start-010per, .vrtl .hltr .m-start-015per,
+.vrtl .hltr .m-start-020per, .vrtl .hltr .m-start-025per, .vrtl .hltr .m-start-030per,
+.vrtl .hltr .m-start-033per, .vrtl .hltr .m-start-040per, .vrtl .hltr .m-start-050per,
+.vrtl .hltr .m-start-060per, .vrtl .hltr .m-start-067per, .vrtl .hltr .m-start-070per,
+.vrtl .hltr .m-start-075per, .vrtl .hltr .m-start-080per, .vrtl .hltr .m-start-090per,
+.vrtl .hltr .m-start-0em25,  .vrtl .hltr .m-start-0em50,  .vrtl .hltr .m-start-0em75,
+.vrtl .hltr .m-start-1em,    .vrtl .hltr .m-start-1em25,  .vrtl .hltr .m-start-1em50,
+.vrtl .hltr .m-start-1em75,  .vrtl .hltr .m-start-2em,    .vrtl .hltr .m-start-2em50,
+.vrtl .hltr .m-start-3em,    .vrtl .hltr .m-start-4em,    .vrtl .hltr .m-start-5em,
+.vrtl .hltr .m-start-5em25 {
+  margin-top: 0;
+}
+
+
+/* 行末マージン：横組み用 */
+.hltr .m-end-auto   { margin-right: auto; }
+.hltr .m-end-0,
+.hltr .m-end-0em,
+.hltr .m-end-000per { margin-right: 0; }
+
+/* ％指定 */
+.hltr .m-end-005per { margin-right:  5%; }
+.hltr .m-end-010per { margin-right: 10%; }
+.hltr .m-end-015per { margin-right: 15%; }
+.hltr .m-end-020per { margin-right: 20%; }
+.hltr .m-end-025per { margin-right: 25%; }
+.hltr .m-end-030per { margin-right: 30%; }
+.hltr .m-end-033per { margin-right: 33%; }
+.hltr .m-end-040per { margin-right: 40%; }
+.hltr .m-end-050per { margin-right: 50%; }
+.hltr .m-end-060per { margin-right: 60%; }
+.hltr .m-end-067per { margin-right: 67%; }
+.hltr .m-end-070per { margin-right: 70%; }
+.hltr .m-end-075per { margin-right: 75%; }
+.hltr .m-end-080per { margin-right: 80%; }
+.hltr .m-end-090per { margin-right: 90%; }
+
+/* 文字数指定 */
+.hltr .m-end-0em25 { margin-right: 0.25em; }
+.hltr .m-end-0em50 { margin-right: 0.50em; }
+.hltr .m-end-0em75 { margin-right: 0.75em; }
+.hltr .m-end-1em   { margin-right: 1.00em; }
+.hltr .m-end-1em25 { margin-right: 1.25em; }
+.hltr .m-end-1em50 { margin-right: 1.50em; }
+.hltr .m-end-1em75 { margin-right: 1.75em; }
+.hltr .m-end-2em   { margin-right: 2.00em; }
+.hltr .m-end-2em50 { margin-right: 2.50em; }
+.hltr .m-end-3em   { margin-right: 3.00em; }
+.hltr .m-end-4em   { margin-right: 4.00em; }
+.hltr .m-end-5em   { margin-right: 5.00em; }
+.hltr .m-end-5em25 { margin-right: 5.25em; }
+
+/* .vrtl .hltr [class|="m-end"] { margin-bottom:  0; } */
+.vrtl .hltr .m-end-auto,
+.vrtl .hltr .m-end-005per, .vrtl .hltr .m-end-010per, .vrtl .hltr .m-end-015per,
+.vrtl .hltr .m-end-020per, .vrtl .hltr .m-end-025per, .vrtl .hltr .m-end-030per,
+.vrtl .hltr .m-end-033per, .vrtl .hltr .m-end-040per, .vrtl .hltr .m-end-050per,
+.vrtl .hltr .m-end-060per, .vrtl .hltr .m-end-067per, .vrtl .hltr .m-end-070per,
+.vrtl .hltr .m-end-075per, .vrtl .hltr .m-end-080per, .vrtl .hltr .m-end-090per,
+.vrtl .hltr .m-end-0em25,  .vrtl .hltr .m-end-0em50,  .vrtl .hltr .m-end-0em75,
+.vrtl .hltr .m-end-1em,    .vrtl .hltr .m-end-1em25,  .vrtl .hltr .m-end-1em50,
+.vrtl .hltr .m-end-1em75,  .vrtl .hltr .m-end-2em,    .vrtl .hltr .m-end-2em50,
+.vrtl .hltr .m-end-3em,    .vrtl .hltr .m-end-4em,    .vrtl .hltr .m-end-5em,
+.vrtl .hltr .m-end-5em25 {
+  margin-bottom: 0;
+}
+
+
+/* 行前方マージン：横組み用 */
+.hltr .m-before-auto   { margin-top: auto; }
+.hltr .m-before-0,
+.hltr .m-before-0em,
+.hltr .m-before-000per { margin-top: 0; }
+
+/* ％指定 */
+.hltr .m-before-005per { margin-top:  5%; }
+.hltr .m-before-010per { margin-top: 10%; }
+.hltr .m-before-015per { margin-top: 15%; }
+.hltr .m-before-020per { margin-top: 20%; }
+.hltr .m-before-025per { margin-top: 25%; }
+.hltr .m-before-030per { margin-top: 30%; }
+.hltr .m-before-033per { margin-top: 33%; }
+.hltr .m-before-040per { margin-top: 40%; }
+.hltr .m-before-050per { margin-top: 50%; }
+.hltr .m-before-060per { margin-top: 60%; }
+.hltr .m-before-067per { margin-top: 67%; }
+.hltr .m-before-070per { margin-top: 70%; }
+.hltr .m-before-075per { margin-top: 75%; }
+.hltr .m-before-080per { margin-top: 80%; }
+.hltr .m-before-090per { margin-top: 90%; }
+
+/* 文字数指定 */
+.hltr .m-before-0em25 { margin-top: 0.25em; }
+.hltr .m-before-0em50 { margin-top: 0.50em; }
+.hltr .m-before-0em75 { margin-top: 0.75em; }
+.hltr .m-before-1em   { margin-top: 1.00em; }
+.hltr .m-before-1em25 { margin-top: 1.25em; }
+.hltr .m-before-1em50 { margin-top: 1.50em; }
+.hltr .m-before-1em75 { margin-top: 1.75em; }
+.hltr .m-before-2em   { margin-top: 2.00em; }
+.hltr .m-before-2em50 { margin-top: 2.50em; }
+.hltr .m-before-3em   { margin-top: 3.00em; }
+.hltr .m-before-4em   { margin-top: 4.00em; }
+.hltr .m-before-5em   { margin-top: 5.00em; }
+.hltr .m-before-5em25 { margin-top: 5.25em; }
+
+/* .vrtl .hltr [class|="m-before"] { margin-right:  0; } */
+.vrtl .hltr .m-before-auto,
+.vrtl .hltr .m-before-005per, .vrtl .hltr .m-before-010per, .vrtl .hltr .m-before-015per,
+.vrtl .hltr .m-before-020per, .vrtl .hltr .m-before-025per, .vrtl .hltr .m-before-030per,
+.vrtl .hltr .m-before-033per, .vrtl .hltr .m-before-040per, .vrtl .hltr .m-before-050per,
+.vrtl .hltr .m-before-060per, .vrtl .hltr .m-before-067per, .vrtl .hltr .m-before-070per,
+.vrtl .hltr .m-before-075per, .vrtl .hltr .m-before-080per, .vrtl .hltr .m-before-090per,
+.vrtl .hltr .m-before-0em25,  .vrtl .hltr .m-before-0em50,  .vrtl .hltr .m-before-0em75,
+.vrtl .hltr .m-before-1em,    .vrtl .hltr .m-before-1em25,  .vrtl .hltr .m-before-1em50,
+.vrtl .hltr .m-before-1em75,  .vrtl .hltr .m-before-2em,    .vrtl .hltr .m-before-2em50,
+.vrtl .hltr .m-before-3em,    .vrtl .hltr .m-before-4em,    .vrtl .hltr .m-before-5em,
+.vrtl .hltr .m-before-5em25 {
+  margin-right: 0;
+}
+
+
+/* 行後方マージン：横組み用 */
+.hltr .m-after-auto   { margin-bottom: auto; }
+.hltr .m-after-0,
+.hltr .m-after-0em,
+.hltr .m-after-000per { margin-bottom: 0; }
+
+/* ％指定 */
+.hltr .m-after-005per { margin-bottom:  5%; }
+.hltr .m-after-010per { margin-bottom: 10%; }
+.hltr .m-after-015per { margin-bottom: 15%; }
+.hltr .m-after-020per { margin-bottom: 20%; }
+.hltr .m-after-025per { margin-bottom: 25%; }
+.hltr .m-after-030per { margin-bottom: 30%; }
+.hltr .m-after-033per { margin-bottom: 33%; }
+.hltr .m-after-040per { margin-bottom: 40%; }
+.hltr .m-after-050per { margin-bottom: 50%; }
+.hltr .m-after-060per { margin-bottom: 60%; }
+.hltr .m-after-067per { margin-bottom: 67%; }
+.hltr .m-after-070per { margin-bottom: 70%; }
+.hltr .m-after-075per { margin-bottom: 75%; }
+.hltr .m-after-080per { margin-bottom: 80%; }
+.hltr .m-after-090per { margin-bottom: 90%; }
+
+/* 文字数指定 */
+.hltr .m-after-0em25 { margin-bottom: 0.25em; }
+.hltr .m-after-0em50 { margin-bottom: 0.50em; }
+.hltr .m-after-0em75 { margin-bottom: 0.75em; }
+.hltr .m-after-1em   { margin-bottom: 1.00em; }
+.hltr .m-after-1em25 { margin-bottom: 1.25em; }
+.hltr .m-after-1em50 { margin-bottom: 1.50em; }
+.hltr .m-after-1em75 { margin-bottom: 1.75em; }
+.hltr .m-after-2em   { margin-bottom: 2.00em; }
+.hltr .m-after-2em50 { margin-bottom: 2.50em; }
+.hltr .m-after-3em   { margin-bottom: 3.00em; }
+.hltr .m-after-4em   { margin-bottom: 4.00em; }
+.hltr .m-after-5em   { margin-bottom: 5.00em; }
+.hltr .m-after-5em25 { margin-bottom: 5.25em; }
+
+/* .vrtl .hltr [class|="m-after"] { margin-left:  0; } */
+.vrtl .hltr .m-after-auto,
+.vrtl .hltr .m-after-005per, .vrtl .hltr .m-after-010per, .vrtl .hltr .m-after-015per,
+.vrtl .hltr .m-after-020per, .vrtl .hltr .m-after-025per, .vrtl .hltr .m-after-030per,
+.vrtl .hltr .m-after-033per, .vrtl .hltr .m-after-040per, .vrtl .hltr .m-after-050per,
+.vrtl .hltr .m-after-060per, .vrtl .hltr .m-after-067per, .vrtl .hltr .m-after-070per,
+.vrtl .hltr .m-after-075per, .vrtl .hltr .m-after-080per, .vrtl .hltr .m-after-090per,
+.vrtl .hltr .m-after-0em25,  .vrtl .hltr .m-after-0em50,  .vrtl .hltr .m-after-0em75,
+.vrtl .hltr .m-after-1em,    .vrtl .hltr .m-after-1em25,  .vrtl .hltr .m-after-1em50,
+.vrtl .hltr .m-after-1em75,  .vrtl .hltr .m-after-2em,    .vrtl .hltr .m-after-2em50,
+.vrtl .hltr .m-after-3em,    .vrtl .hltr .m-after-4em,    .vrtl .hltr .m-after-5em,
+.vrtl .hltr .m-after-5em25 {
+  margin-left: 0;
+}
+
+
+/* 【論理方向指定】内側の余白（パディング）指定
+---------------------------------------------------------------- */
+/* 行頭パディング：横組み用 */
+.hltr .p-start-0,
+.hltr .p-start-0em,
+.hltr .p-start-000per { padding-left: 0; }
+
+/* ％指定 */
+.hltr .p-start-005per { padding-left:  5%; }
+.hltr .p-start-010per { padding-left: 10%; }
+.hltr .p-start-015per { padding-left: 15%; }
+.hltr .p-start-020per { padding-left: 20%; }
+.hltr .p-start-025per { padding-left: 25%; }
+.hltr .p-start-030per { padding-left: 30%; }
+.hltr .p-start-033per { padding-left: 33%; }
+.hltr .p-start-040per { padding-left: 40%; }
+.hltr .p-start-050per { padding-left: 50%; }
+.hltr .p-start-060per { padding-left: 60%; }
+.hltr .p-start-067per { padding-left: 67%; }
+.hltr .p-start-070per { padding-left: 70%; }
+.hltr .p-start-075per { padding-left: 75%; }
+.hltr .p-start-080per { padding-left: 80%; }
+.hltr .p-start-090per { padding-left: 90%; }
+
+/* 文字数指定 */
+.hltr .p-start-0em25 { padding-left: 0.25em; }
+.hltr .p-start-0em50 { padding-left: 0.50em; }
+.hltr .p-start-0em75 { padding-left: 0.75em; }
+.hltr .p-start-1em   { padding-left: 1.00em; }
+.hltr .p-start-1em25 { padding-left: 1.25em; }
+.hltr .p-start-1em50 { padding-left: 1.50em; }
+.hltr .p-start-1em75 { padding-left: 1.75em; }
+.hltr .p-start-2em   { padding-left: 2.00em; }
+.hltr .p-start-2em50 { padding-left: 2.50em; }
+.hltr .p-start-3em   { padding-left: 3.00em; }
+.hltr .p-start-4em   { padding-left: 4.00em; }
+.hltr .p-start-5em   { padding-left: 5.00em; }
+.hltr .p-start-5em25 { padding-left: 5.25em; }
+
+/* .vrtl .hltr [class|="p-start"] { padding-top:  0; } */
+.vrtl .hltr .p-start-005per, .vrtl .hltr .p-start-010per, .vrtl .hltr .p-start-015per,
+.vrtl .hltr .p-start-020per, .vrtl .hltr .p-start-025per, .vrtl .hltr .p-start-030per,
+.vrtl .hltr .p-start-033per, .vrtl .hltr .p-start-040per, .vrtl .hltr .p-start-050per,
+.vrtl .hltr .p-start-060per, .vrtl .hltr .p-start-067per, .vrtl .hltr .p-start-070per,
+.vrtl .hltr .p-start-075per, .vrtl .hltr .p-start-080per, .vrtl .hltr .p-start-090per,
+.vrtl .hltr .p-start-0em25,  .vrtl .hltr .p-start-0em50,  .vrtl .hltr .p-start-0em75,
+.vrtl .hltr .p-start-1em,    .vrtl .hltr .p-start-1em25,  .vrtl .hltr .p-start-1em50,
+.vrtl .hltr .p-start-1em75,  .vrtl .hltr .p-start-2em,    .vrtl .hltr .p-start-2em50,
+.vrtl .hltr .p-start-3em,    .vrtl .hltr .p-start-4em,    .vrtl .hltr .p-start-5em,
+.vrtl .hltr .p-start-5em25 {
+  padding-top: 0;
+}
+
+
+/* 行末パディング：横組み用 */
+.hltr .p-end-0,
+.hltr .p-end-0em,
+.hltr .p-end-000per { padding-right: 0; }
+
+/* ％指定 */
+.hltr .p-end-005per { padding-right:  5%; }
+.hltr .p-end-010per { padding-right: 10%; }
+.hltr .p-end-015per { padding-right: 15%; }
+.hltr .p-end-020per { padding-right: 20%; }
+.hltr .p-end-025per { padding-right: 25%; }
+.hltr .p-end-030per { padding-right: 30%; }
+.hltr .p-end-033per { padding-right: 33%; }
+.hltr .p-end-040per { padding-right: 40%; }
+.hltr .p-end-050per { padding-right: 50%; }
+.hltr .p-end-060per { padding-right: 60%; }
+.hltr .p-end-067per { padding-right: 67%; }
+.hltr .p-end-070per { padding-right: 70%; }
+.hltr .p-end-075per { padding-right: 75%; }
+.hltr .p-end-080per { padding-right: 80%; }
+.hltr .p-end-090per { padding-right: 90%; }
+
+/* 文字数指定 */
+.hltr .p-end-0em25 { padding-right: 0.25em; }
+.hltr .p-end-0em50 { padding-right: 0.50em; }
+.hltr .p-end-0em75 { padding-right: 0.75em; }
+.hltr .p-end-1em   { padding-right: 1.00em; }
+.hltr .p-end-1em25 { padding-right: 1.25em; }
+.hltr .p-end-1em50 { padding-right: 1.50em; }
+.hltr .p-end-1em75 { padding-right: 1.75em; }
+.hltr .p-end-2em   { padding-right: 2.00em; }
+.hltr .p-end-2em50 { padding-right: 2.50em; }
+.hltr .p-end-3em   { padding-right: 3.00em; }
+.hltr .p-end-4em   { padding-right: 4.00em; }
+.hltr .p-end-5em   { padding-right: 5.00em; }
+.hltr .p-end-5em25 { padding-right: 5.25em; }
+
+/* .vrtl .hltr [class|="p-end"] { padding-bottom:  0; } */
+.vrtl .hltr .p-end-005per, .vrtl .hltr .p-end-010per, .vrtl .hltr .p-end-015per,
+.vrtl .hltr .p-end-020per, .vrtl .hltr .p-end-025per, .vrtl .hltr .p-end-030per,
+.vrtl .hltr .p-end-033per, .vrtl .hltr .p-end-040per, .vrtl .hltr .p-end-050per,
+.vrtl .hltr .p-end-060per, .vrtl .hltr .p-end-067per, .vrtl .hltr .p-end-070per,
+.vrtl .hltr .p-end-075per, .vrtl .hltr .p-end-080per, .vrtl .hltr .p-end-090per,
+.vrtl .hltr .p-end-0em25,  .vrtl .hltr .p-end-0em50,  .vrtl .hltr .p-end-0em75,
+.vrtl .hltr .p-end-1em,    .vrtl .hltr .p-end-1em25,  .vrtl .hltr .p-end-1em50,
+.vrtl .hltr .p-end-1em75,  .vrtl .hltr .p-end-2em,    .vrtl .hltr .p-end-2em50,
+.vrtl .hltr .p-end-3em,    .vrtl .hltr .p-end-4em,    .vrtl .hltr .p-end-5em,
+.vrtl .hltr .p-end-5em25 {
+  padding-bottom: 0;
+}
+
+
+/* 行前方パディング：横組み用 */
+.hltr .p-before-0,
+.hltr .p-before-0em,
+.hltr .p-before-000per { padding-top: 0; }
+
+/* ％指定 */
+.hltr .p-before-005per { padding-top:  5%; }
+.hltr .p-before-010per { padding-top: 10%; }
+.hltr .p-before-015per { padding-top: 15%; }
+.hltr .p-before-020per { padding-top: 20%; }
+.hltr .p-before-025per { padding-top: 25%; }
+.hltr .p-before-030per { padding-top: 30%; }
+.hltr .p-before-033per { padding-top: 33%; }
+.hltr .p-before-040per { padding-top: 40%; }
+.hltr .p-before-050per { padding-top: 50%; }
+.hltr .p-before-060per { padding-top: 60%; }
+.hltr .p-before-067per { padding-top: 67%; }
+.hltr .p-before-070per { padding-top: 70%; }
+.hltr .p-before-075per { padding-top: 75%; }
+.hltr .p-before-080per { padding-top: 80%; }
+.hltr .p-before-090per { padding-top: 90%; }
+
+/* 文字数指定 */
+.hltr .p-before-0em25 { padding-top: 0.25em; }
+.hltr .p-before-0em50 { padding-top: 0.50em; }
+.hltr .p-before-0em75 { padding-top: 0.75em; }
+.hltr .p-before-1em   { padding-top: 1.00em; }
+.hltr .p-before-1em25 { padding-top: 1.25em; }
+.hltr .p-before-1em50 { padding-top: 1.50em; }
+.hltr .p-before-1em75 { padding-top: 1.75em; }
+.hltr .p-before-2em   { padding-top: 2.00em; }
+.hltr .p-before-2em50 { padding-top: 2.50em; }
+.hltr .p-before-3em   { padding-top: 3.00em; }
+.hltr .p-before-4em   { padding-top: 4.00em; }
+.hltr .p-before-5em   { padding-top: 5.00em; }
+.hltr .p-before-5em25 { padding-top: 5.25em; }
+
+/* .vrtl .hltr [class|="p-before"] { padding-right:  0; } */
+.vrtl .hltr .p-before-005per, .vrtl .hltr .p-before-010per, .vrtl .hltr .p-before-015per,
+.vrtl .hltr .p-before-020per, .vrtl .hltr .p-before-025per, .vrtl .hltr .p-before-030per,
+.vrtl .hltr .p-before-033per, .vrtl .hltr .p-before-040per, .vrtl .hltr .p-before-050per,
+.vrtl .hltr .p-before-060per, .vrtl .hltr .p-before-067per, .vrtl .hltr .p-before-070per,
+.vrtl .hltr .p-before-075per, .vrtl .hltr .p-before-080per, .vrtl .hltr .p-before-090per,
+.vrtl .hltr .p-before-0em25,  .vrtl .hltr .p-before-0em50,  .vrtl .hltr .p-before-0em75,
+.vrtl .hltr .p-before-1em,    .vrtl .hltr .p-before-1em25,  .vrtl .hltr .p-before-1em50,
+.vrtl .hltr .p-before-1em75,  .vrtl .hltr .p-before-2em,    .vrtl .hltr .p-before-2em50,
+.vrtl .hltr .p-before-3em,    .vrtl .hltr .p-before-4em,    .vrtl .hltr .p-before-5em,
+.vrtl .hltr .p-before-5em25 {
+  padding-right: 0;
+}
+
+/* 行後方パディング：横組み用 */
+.hltr .p-after-0,
+.hltr .p-after-0em,
+.hltr .p-after-000per { padding-bottom: 0; }
+
+/* ％指定 */
+.hltr .p-after-005per { padding-bottom:  5%; }
+.hltr .p-after-010per { padding-bottom: 10%; }
+.hltr .p-after-015per { padding-bottom: 15%; }
+.hltr .p-after-020per { padding-bottom: 20%; }
+.hltr .p-after-025per { padding-bottom: 25%; }
+.hltr .p-after-030per { padding-bottom: 30%; }
+.hltr .p-after-033per { padding-bottom: 33%; }
+.hltr .p-after-040per { padding-bottom: 40%; }
+.hltr .p-after-050per { padding-bottom: 50%; }
+.hltr .p-after-060per { padding-bottom: 60%; }
+.hltr .p-after-067per { padding-bottom: 67%; }
+.hltr .p-after-070per { padding-bottom: 70%; }
+.hltr .p-after-075per { padding-bottom: 75%; }
+.hltr .p-after-080per { padding-bottom: 80%; }
+.hltr .p-after-090per { padding-bottom: 90%; }
+
+/* 文字数指定 */
+.hltr .p-after-0em25 { padding-bottom: 0.25em; }
+.hltr .p-after-0em50 { padding-bottom: 0.50em; }
+.hltr .p-after-0em75 { padding-bottom: 0.75em; }
+.hltr .p-after-1em   { padding-bottom: 1.00em; }
+.hltr .p-after-1em25 { padding-bottom: 1.25em; }
+.hltr .p-after-1em50 { padding-bottom: 1.50em; }
+.hltr .p-after-1em75 { padding-bottom: 1.75em; }
+.hltr .p-after-2em   { padding-bottom: 2.00em; }
+.hltr .p-after-2em50 { padding-bottom: 2.50em; }
+.hltr .p-after-3em   { padding-bottom: 3.00em; }
+.hltr .p-after-4em   { padding-bottom: 4.00em; }
+.hltr .p-after-5em   { padding-bottom: 5.00em; }
+.hltr .p-after-5em25 { padding-bottom: 5.25em; }
+
+/* .vrtl .hltr [class|="p-after"] { padding-left:  0; } */
+.vrtl .hltr .p-after-005per, .vrtl .hltr .p-after-010per, .vrtl .hltr .p-after-015per,
+.vrtl .hltr .p-after-020per, .vrtl .hltr .p-after-025per, .vrtl .hltr .p-after-030per,
+.vrtl .hltr .p-after-033per, .vrtl .hltr .p-after-040per, .vrtl .hltr .p-after-050per,
+.vrtl .hltr .p-after-060per, .vrtl .hltr .p-after-067per, .vrtl .hltr .p-after-070per,
+.vrtl .hltr .p-after-075per, .vrtl .hltr .p-after-080per, .vrtl .hltr .p-after-090per,
+.vrtl .hltr .p-after-0em25,  .vrtl .hltr .p-after-0em50,  .vrtl .hltr .p-after-0em75,
+.vrtl .hltr .p-after-1em,    .vrtl .hltr .p-after-1em25,  .vrtl .hltr .p-after-1em50,
+.vrtl .hltr .p-after-1em75,  .vrtl .hltr .p-after-2em,    .vrtl .hltr .p-after-2em50,
+.vrtl .hltr .p-after-3em,    .vrtl .hltr .p-after-4em,    .vrtl .hltr .p-after-5em,
+.vrtl .hltr .p-after-5em25 {
+  padding-left: 0;
+}
+
+.hltr .measure-010per, .vrtl .hltr .measure-010per { height: auto; width:  10%; }
+.hltr .measure-020per, .vrtl .hltr .measure-020per { height: auto; width:  20%; }
+.hltr .measure-025per, .vrtl .hltr .measure-025per { height: auto; width:  25%; }
+.hltr .measure-030per, .vrtl .hltr .measure-030per { height: auto; width:  30%; }
+.hltr .measure-033per, .vrtl .hltr .measure-033per { height: auto; width:  33%; }
+.hltr .measure-040per, .vrtl .hltr .measure-040per { height: auto; width:  40%; }
+.hltr .measure-050per, .vrtl .hltr .measure-050per { height: auto; width:  50%; }
+.hltr .measure-060per, .vrtl .hltr .measure-060per { height: auto; width:  60%; }
+.hltr .measure-067per, .vrtl .hltr .measure-067per { height: auto; width:  67%; }
+.hltr .measure-070per, .vrtl .hltr .measure-070per { height: auto; width:  70%; }
+.hltr .measure-075per, .vrtl .hltr .measure-075per { height: auto; width:  75%; }
+.hltr .measure-080per, .vrtl .hltr .measure-080per { height: auto; width:  80%; }
+.hltr .measure-090per, .vrtl .hltr .measure-090per { height: auto; width:  90%; }
+.hltr .measure-100per, .vrtl .hltr .measure-100per { height: auto; width: 100%; }
+
+.hltr .measure-0em25, .vrtl .hltr .measure-0em25 { height: auto; width:  0.25em; }
+.hltr .measure-0em50, .vrtl .hltr .measure-0em50 { height: auto; width:  0.50em; }
+.hltr .measure-0em75, .vrtl .hltr .measure-0em75 { height: auto; width:  0.75em; }
+.hltr .measure-1em,   .vrtl .hltr .measure-1em   { height: auto; width:  1.00em; }
+.hltr .measure-1em25, .vrtl .hltr .measure-1em25 { height: auto; width:  1.25em; }
+.hltr .measure-1em50, .vrtl .hltr .measure-1em50 { height: auto; width:  1.50em; }
+.hltr .measure-1em75, .vrtl .hltr .measure-1em75 { height: auto; width:  1.75em; }
+.hltr .measure-2em,   .vrtl .hltr .measure-2em   { height: auto; width:  2.00em; }
+.hltr .measure-2em50, .vrtl .hltr .measure-2em50 { height: auto; width:  2.50em; }
+.hltr .measure-3em,   .vrtl .hltr .measure-3em   { height: auto; width:  3.00em; }
+.hltr .measure-4em,   .vrtl .hltr .measure-4em   { height: auto; width:  4.00em; }
+.hltr .measure-5em,   .vrtl .hltr .measure-5em   { height: auto; width:  5.00em; }
+.hltr .measure-5em25, .vrtl .hltr .measure-5em25 { height: auto; width:  5.25em; }
+.hltr .measure-6em,   .vrtl .hltr .measure-6em   { height: auto; width:  6.00em; }
+.hltr .measure-7em,   .vrtl .hltr .measure-7em   { height: auto; width:  7.00em; }
+.hltr .measure-8em,   .vrtl .hltr .measure-8em   { height: auto; width:  8.00em; }
+.hltr .measure-8em75, .vrtl .hltr .measure-8em75 { height: auto; width:  8.75em; }
+.hltr .measure-9em,   .vrtl .hltr .measure-9em   { height: auto; width:  9.00em; }
+.hltr .measure-10em,  .vrtl .hltr .measure-10em  { height: auto; width: 10.00em; }
+.hltr .measure-11em,  .vrtl .hltr .measure-11em  { height: auto; width: 11.00em; }
+.hltr .measure-12em,  .vrtl .hltr .measure-12em  { height: auto; width: 12.00em; }
+.hltr .measure-13em,  .vrtl .hltr .measure-13em  { height: auto; width: 13.00em; }
+.hltr .measure-14em,  .vrtl .hltr .measure-14em  { height: auto; width: 14.00em; }
+.hltr .measure-15em,  .vrtl .hltr .measure-15em  { height: auto; width: 15.00em; }
+.hltr .measure-20em,  .vrtl .hltr .measure-20em  { height: auto; width: 20.00em; }
+.hltr .measure-30em,  .vrtl .hltr .measure-30em  { height: auto; width: 30.00em; }
+.hltr .measure-40em,  .vrtl .hltr .measure-40em  { height: auto; width: 40.00em; }
+
+.hltr .max-measure-010per, .vrtl .hltr .max-measure-010per { max-height: none; max-width:  10%; }
+.hltr .max-measure-020per, .vrtl .hltr .max-measure-020per { max-height: none; max-width:  20%; }
+.hltr .max-measure-025per, .vrtl .hltr .max-measure-025per { max-height: none; max-width:  25%; }
+.hltr .max-measure-030per, .vrtl .hltr .max-measure-030per { max-height: none; max-width:  30%; }
+.hltr .max-measure-033per, .vrtl .hltr .max-measure-033per { max-height: none; max-width:  33%; }
+.hltr .max-measure-040per, .vrtl .hltr .max-measure-040per { max-height: none; max-width:  40%; }
+.hltr .max-measure-050per, .vrtl .hltr .max-measure-050per { max-height: none; max-width:  50%; }
+.hltr .max-measure-060per, .vrtl .hltr .max-measure-060per { max-height: none; max-width:  60%; }
+.hltr .max-measure-067per, .vrtl .hltr .max-measure-067per { max-height: none; max-width:  67%; }
+.hltr .max-measure-070per, .vrtl .hltr .max-measure-070per { max-height: none; max-width:  70%; }
+.hltr .max-measure-075per, .vrtl .hltr .max-measure-075per { max-height: none; max-width:  75%; }
+.hltr .max-measure-080per, .vrtl .hltr .max-measure-080per { max-height: none; max-width:  80%; }
+.hltr .max-measure-090per, .vrtl .hltr .max-measure-090per { max-height: none; max-width:  90%; }
+.hltr .max-measure-100per, .vrtl .hltr .max-measure-100per { max-height: none; max-width: 100%; }
+
+.hltr .max-measure-0em25, .vrtl .hltr .max-measure-0em25 { max-height: none; max-width:  0.25em; }
+.hltr .max-measure-0em50, .vrtl .hltr .max-measure-0em50 { max-height: none; max-width:  0.50em; }
+.hltr .max-measure-0em75, .vrtl .hltr .max-measure-0em75 { max-height: none; max-width:  0.75em; }
+.hltr .max-measure-1em,   .vrtl .hltr .max-measure-1em   { max-height: none; max-width:  1.00em; }
+.hltr .max-measure-1em25, .vrtl .hltr .max-measure-1em25 { max-height: none; max-width:  1.25em; }
+.hltr .max-measure-1em50, .vrtl .hltr .max-measure-1em50 { max-height: none; max-width:  1.50em; }
+.hltr .max-measure-1em75, .vrtl .hltr .max-measure-1em75 { max-height: none; max-width:  1.75em; }
+.hltr .max-measure-2em,   .vrtl .hltr .max-measure-2em   { max-height: none; max-width:  2.00em; }
+.hltr .max-measure-2em50, .vrtl .hltr .max-measure-2em50 { max-height: none; max-width:  2.50em; }
+.hltr .max-measure-3em,   .vrtl .hltr .max-measure-3em   { max-height: none; max-width:  3.00em; }
+.hltr .max-measure-4em,   .vrtl .hltr .max-measure-4em   { max-height: none; max-width:  4.00em; }
+.hltr .max-measure-5em,   .vrtl .hltr .max-measure-5em   { max-height: none; max-width:  5.00em; }
+.hltr .max-measure-5em25, .vrtl .hltr .max-measure-5em25 { max-height: none; max-width:  5.25em; }
+.hltr .max-measure-6em,   .vrtl .hltr .max-measure-6em   { max-height: none; max-width:  6.00em; }
+.hltr .max-measure-7em,   .vrtl .hltr .max-measure-7em   { max-height: none; max-width:  7.00em; }
+.hltr .max-measure-8em,   .vrtl .hltr .max-measure-8em   { max-height: none; max-width:  8.00em; }
+.hltr .max-measure-8em75, .vrtl .hltr .max-measure-8em75 { max-height: none; max-width:  8.75em; }
+.hltr .max-measure-9em,   .vrtl .hltr .max-measure-9em   { max-height: none; max-width:  9.00em; }
+.hltr .max-measure-10em,  .vrtl .hltr .max-measure-10em  { max-height: none; max-width: 10.00em; }
+.hltr .max-measure-11em,  .vrtl .hltr .max-measure-11em  { max-height: none; max-width: 11.00em; }
+.hltr .max-measure-12em,  .vrtl .hltr .max-measure-12em  { max-height: none; max-width: 12.00em; }
+.hltr .max-measure-13em,  .vrtl .hltr .max-measure-13em  { max-height: none; max-width: 13.00em; }
+.hltr .max-measure-14em,  .vrtl .hltr .max-measure-14em  { max-height: none; max-width: 14.00em; }
+.hltr .max-measure-15em,  .vrtl .hltr .max-measure-15em  { max-height: none; max-width: 15.00em; }
+.hltr .max-measure-20em,  .vrtl .hltr .max-measure-20em  { max-height: none; max-width: 20.00em; }
+.hltr .max-measure-30em,  .vrtl .hltr .max-measure-30em  { max-height: none; max-width: 30.00em; }
+.hltr .max-measure-40em,  .vrtl .hltr .max-measure-40em  { max-height: none; max-width: 40.00em; }
+
+.hltr .extent-010per, .vrtl .hltr .extent-010per { height:  10%; width: auto; }
+.hltr .extent-020per, .vrtl .hltr .extent-020per { height:  20%; width: auto; }
+.hltr .extent-025per, .vrtl .hltr .extent-025per { height:  25%; width: auto; }
+.hltr .extent-030per, .vrtl .hltr .extent-030per { height:  30%; width: auto; }
+.hltr .extent-033per, .vrtl .hltr .extent-033per { height:  33%; width: auto; }
+.hltr .extent-040per, .vrtl .hltr .extent-040per { height:  40%; width: auto; }
+.hltr .extent-050per, .vrtl .hltr .extent-050per { height:  50%; width: auto; }
+.hltr .extent-060per, .vrtl .hltr .extent-060per { height:  60%; width: auto; }
+.hltr .extent-067per, .vrtl .hltr .extent-067per { height:  67%; width: auto; }
+.hltr .extent-070per, .vrtl .hltr .extent-070per { height:  70%; width: auto; }
+.hltr .extent-075per, .vrtl .hltr .extent-075per { height:  75%; width: auto; }
+.hltr .extent-080per, .vrtl .hltr .extent-080per { height:  80%; width: auto; }
+.hltr .extent-090per, .vrtl .hltr .extent-090per { height:  90%; width: auto; }
+.hltr .extent-100per, .vrtl .hltr .extent-100per { height: 100%; width: auto; }
+
+.hltr .extent-0em25, .vrtl .hltr .extent-0em25 { height:  0.25em; width: auto; }
+.hltr .extent-0em50, .vrtl .hltr .extent-0em50 { height:  0.50em; width: auto; }
+.hltr .extent-0em75, .vrtl .hltr .extent-0em75 { height:  0.75em; width: auto; }
+.hltr .extent-1em,   .vrtl .hltr .extent-1em   { height:  1.00em; width: auto; }
+.hltr .extent-1em25, .vrtl .hltr .extent-1em25 { height:  1.25em; width: auto; }
+.hltr .extent-1em50, .vrtl .hltr .extent-1em50 { height:  1.50em; width: auto; }
+.hltr .extent-1em75, .vrtl .hltr .extent-1em75 { height:  1.75em; width: auto; }
+.hltr .extent-2em,   .vrtl .hltr .extent-2em   { height:  2.00em; width: auto; }
+.hltr .extent-2em50, .vrtl .hltr .extent-2em50 { height:  2.50em; width: auto; }
+.hltr .extent-3em,   .vrtl .hltr .extent-3em   { height:  3.00em; width: auto; }
+.hltr .extent-4em,   .vrtl .hltr .extent-4em   { height:  4.00em; width: auto; }
+.hltr .extent-5em,   .vrtl .hltr .extent-5em   { height:  5.00em; width: auto; }
+.hltr .extent-5em25, .vrtl .hltr .extent-5em25 { height:  5.25em; width: auto; }
+.hltr .extent-6em,   .vrtl .hltr .extent-6em   { height:  6.00em; width: auto; }
+.hltr .extent-7em,   .vrtl .hltr .extent-7em   { height:  7.00em; width: auto; }
+.hltr .extent-8em,   .vrtl .hltr .extent-8em   { height:  8.00em; width: auto; }
+.hltr .extent-8em75, .vrtl .hltr .extent-8em75 { height:  8.75em; width: auto; }
+.hltr .extent-9em,   .vrtl .hltr .extent-9em   { height:  9.00em; width: auto; }
+.hltr .extent-10em,  .vrtl .hltr .extent-10em  { height: 10.00em; width: auto; }
+.hltr .extent-11em,  .vrtl .hltr .extent-11em  { height: 11.00em; width: auto; }
+.hltr .extent-12em,  .vrtl .hltr .extent-12em  { height: 12.00em; width: auto; }
+.hltr .extent-13em,  .vrtl .hltr .extent-13em  { height: 13.00em; width: auto; }
+.hltr .extent-14em,  .vrtl .hltr .extent-14em  { height: 14.00em; width: auto; }
+.hltr .extent-15em,  .vrtl .hltr .extent-15em  { height: 15.00em; width: auto; }
+.hltr .extent-20em,  .vrtl .hltr .extent-20em  { height: 20.00em; width: auto; }
+.hltr .extent-30em,  .vrtl .hltr .extent-30em  { height: 30.00em; width: auto; }
+.hltr .extent-40em,  .vrtl .hltr .extent-40em  { height: 40.00em; width: auto; }
+
+.hltr .max-extent-010per, .vrtl .hltr .max-extent-010per { max-height:  10%; max-width: none; }
+.hltr .max-extent-020per, .vrtl .hltr .max-extent-020per { max-height:  20%; max-width: none; }
+.hltr .max-extent-025per, .vrtl .hltr .max-extent-025per { max-height:  25%; max-width: none; }
+.hltr .max-extent-030per, .vrtl .hltr .max-extent-030per { max-height:  30%; max-width: none; }
+.hltr .max-extent-033per, .vrtl .hltr .max-extent-033per { max-height:  33%; max-width: none; }
+.hltr .max-extent-040per, .vrtl .hltr .max-extent-040per { max-height:  40%; max-width: none; }
+.hltr .max-extent-050per, .vrtl .hltr .max-extent-050per { max-height:  50%; max-width: none; }
+.hltr .max-extent-060per, .vrtl .hltr .max-extent-060per { max-height:  60%; max-width: none; }
+.hltr .max-extent-067per, .vrtl .hltr .max-extent-067per { max-height:  67%; max-width: none; }
+.hltr .max-extent-070per, .vrtl .hltr .max-extent-070per { max-height:  70%; max-width: none; }
+.hltr .max-extent-075per, .vrtl .hltr .max-extent-075per { max-height:  75%; max-width: none; }
+.hltr .max-extent-080per, .vrtl .hltr .max-extent-080per { max-height:  80%; max-width: none; }
+.hltr .max-extent-090per, .vrtl .hltr .max-extent-090per { max-height:  90%; max-width: none; }
+.hltr .max-extent-100per, .vrtl .hltr .max-extent-100per { max-height: 100%; max-width: none; }
+
+.hltr .max-extent-0em25, .vrtl .hltr .max-extent-0em25 { max-height:  0.25em; max-width: none; }
+.hltr .max-extent-0em50, .vrtl .hltr .max-extent-0em50 { max-height:  0.50em; max-width: none; }
+.hltr .max-extent-0em75, .vrtl .hltr .max-extent-0em75 { max-height:  0.75em; max-width: none; }
+.hltr .max-extent-1em,   .vrtl .hltr .max-extent-1em   { max-height:  1.00em; max-width: none; }
+.hltr .max-extent-1em25, .vrtl .hltr .max-extent-1em25 { max-height:  1.25em; max-width: none; }
+.hltr .max-extent-1em50, .vrtl .hltr .max-extent-1em50 { max-height:  1.50em; max-width: none; }
+.hltr .max-extent-1em75, .vrtl .hltr .max-extent-1em75 { max-height:  1.75em; max-width: none; }
+.hltr .max-extent-2em,   .vrtl .hltr .max-extent-2em   { max-height:  2.00em; max-width: none; }
+.hltr .max-extent-2em50, .vrtl .hltr .max-extent-2em50 { max-height:  2.50em; max-width: none; }
+.hltr .max-extent-3em,   .vrtl .hltr .max-extent-3em   { max-height:  3.00em; max-width: none; }
+.hltr .max-extent-4em,   .vrtl .hltr .max-extent-4em   { max-height:  4.00em; max-width: none; }
+.hltr .max-extent-5em,   .vrtl .hltr .max-extent-5em   { max-height:  5.00em; max-width: none; }
+.hltr .max-extent-5em25, .vrtl .hltr .max-extent-5em25 { max-height:  5.25em; max-width: none; }
+.hltr .max-extent-6em,   .vrtl .hltr .max-extent-6em   { max-height:  6.00em; max-width: none; }
+.hltr .max-extent-7em,   .vrtl .hltr .max-extent-7em   { max-height:  7.00em; max-width: none; }
+.hltr .max-extent-8em,   .vrtl .hltr .max-extent-8em   { max-height:  8.00em; max-width: none; }
+.hltr .max-extent-8em75, .vrtl .hltr .max-extent-8em75 { max-height:  8.75em; max-width: none; }
+.hltr .max-extent-9em,   .vrtl .hltr .max-extent-9em   { max-height:  9.00em; max-width: none; }
+.hltr .max-extent-10em,  .vrtl .hltr .max-extent-10em  { max-height: 10.00em; max-width: none; }
+.hltr .max-extent-11em,  .vrtl .hltr .max-extent-11em  { max-height: 11.00em; max-width: none; }
+.hltr .max-extent-12em,  .vrtl .hltr .max-extent-12em  { max-height: 12.00em; max-width: none; }
+.hltr .max-extent-13em,  .vrtl .hltr .max-extent-13em  { max-height: 13.00em; max-width: none; }
+.hltr .max-extent-14em,  .vrtl .hltr .max-extent-14em  { max-height: 14.00em; max-width: none; }
+.hltr .max-extent-15em,  .vrtl .hltr .max-extent-15em  { max-height: 15.00em; max-width: none; }
+.hltr .max-extent-20em,  .vrtl .hltr .max-extent-20em  { max-height: 20.00em; max-width: none; }
+.hltr .max-extent-30em,  .vrtl .hltr .max-extent-30em  { max-height: 30.00em; max-width: none; }
+.hltr .max-extent-40em,  .vrtl .hltr .max-extent-40em  { max-height: 40.00em; max-width: none; }
+
+

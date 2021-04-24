@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/* 横組み用 */
+html {
+  -webkit-writing-mode: horizontal-tb;
+  -epub-writing-mode:   horizontal-tb;
+}
+
+.block-align-start  { margin: 0 auto 0 0; }
+.block-align-center { margin: 0 auto;     }
+.block-align-end    { margin: 0 0 0 auto; }
+
+a {
+  text-decoration: underline;
+}
+
+img.gaiji,
+img.gaiji-line,
+img.gaiji-wide {
+  vertical-align: text-bottom;
+}
+
+.fit {
+  vertical-align: top;
+}
+
+.kogaki {
+  padding:        0 0.15em 0 0.1em;
+  vertical-align: baseline;
+}
+
+hr {
+  margin:       0.5em 0;
+  border-style: solid none none none;
+}
+
+.em-line {
+  text-decoration: underline;
+}
+
+.em-line-outside {
+  text-decoration: overline;
+}
+
+.h-indent-0,
+.h-indent-0em  { text-indent:   0;   padding-left:  0;   }
+.h-indent-1em  { text-indent:  -1em; padding-left:  1em; }
+.h-indent-2em  { text-indent:  -2em; padding-left:  2em; }
+.h-indent-3em  { text-indent:  -3em; padding-left:  3em; }
+.h-indent-4em  { text-indent:  -4em; padding-left:  4em; }
+.h-indent-5em  { text-indent:  -5em; padding-left:  5em; }
+.h-indent-6em  { text-indent:  -6em; padding-left:  6em; }
+.h-indent-7em  { text-indent:  -7em; padding-left:  7em; }
+.h-indent-8em  { text-indent:  -8em; padding-left:  8em; }
+.h-indent-9em  { text-indent:  -9em; padding-left:  9em; }
+.h-indent-10em { text-indent: -10em; padding-left: 10em; }
+
+.start-0,
+.start-0em   { margin-left:  0;      }
+.start-0em25 { margin-left:  0.25em; }
+.start-0em50 { margin-left:  0.50em; }
+.start-0em75 { margin-left:  0.75em; }
+.start-1em   { margin-left:  1.00em; }
+.start-1em25 { margin-left:  1.25em; }
+.start-1em50 { margin-left:  1.50em; }
+.start-1em75 { margin-left:  1.75em; }
+.start-2em   { margin-left:  2.00em; }
+.start-2em50 { margin-left:  2.50em; }
+.start-3em   { margin-left:  3.00em; }
+.start-4em   { margin-left:  4.00em; }
+.start-5em   { margin-left:  5.00em; }
+.start-6em   { margin-left:  6.00em; }
+.start-7em   { margin-left:  7.00em; }
+.start-8em   { margin-left:  8.00em; }
+.start-9em   { margin-left:  9.00em; }
+.start-10em  { margin-left: 10.00em; }
+
+.end-0,
+.end-0em   { margin-right:  0;      }
+.end-0em25 { margin-right:  0.25em; }
+.end-0em50 { margin-right:  0.50em; }
+.end-0em75 { margin-right:  0.75em; }
+.end-1em   { margin-right:  1.00em; }
+.end-1em25 { margin-right:  1.25em; }
+.end-1em50 { margin-right:  1.50em; }
+.end-1em75 { margin-right:  1.75em; }
+.end-2em   { margin-right:  2.00em; }
+.end-2em50 { margin-right:  2.50em; }
+.end-3em   { margin-right:  3.00em; }
+.end-4em   { margin-right:  4.00em; }
+.end-5em   { margin-right:  5.00em; }
+.end-6em   { margin-right:  6.00em; }
+.end-7em   { margin-right:  7.00em; }
+.end-8em   { margin-right:  8.00em; }
+.end-9em   { margin-right:  9.00em; }
+.end-10em  { margin-right: 10.00em; }

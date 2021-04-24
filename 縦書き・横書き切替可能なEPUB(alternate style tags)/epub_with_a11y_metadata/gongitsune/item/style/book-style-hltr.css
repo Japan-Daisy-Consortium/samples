@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import "style-standard-hltr.css";
+@import "style-advance-hltr.css";
+
+/* 横組み用 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: serif-ja, serif;
+}
+
+a.link-01 {
+  text-decoration: none;
+}
+
+a {
+}
+
+a.noteref {
+}
+
+a.note {
+}
+
+.tobira-midashi {
+}
+
+.oo-midashi {
+}
+
+.naka-midashi {
+}
+
+.ko-midashi {
+}

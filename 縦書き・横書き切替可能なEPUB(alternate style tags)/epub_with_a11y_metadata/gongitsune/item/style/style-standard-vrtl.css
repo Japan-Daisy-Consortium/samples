@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* 縦組み用 */
+html {
+  -webkit-writing-mode: vertical-rl;
+  -epub-writing-mode:   vertical-rl;
+}
+
+.block-align-start  { margin: 0 0 auto 0; }
+.block-align-center { margin: auto 0;     }
+.block-align-end    { margin: auto 0 0 0; }
+
+a {
+  text-decoration: overline;
+}
+
+img.gaiji,
+img.gaiji-line,
+img.gaiji-wide {
+  vertical-align: baseline;
+}
+
+.fit {
+  vertical-align: baseline;
+}
+
+.kogaki {
+  padding:        0.1em 0 0.15em 0;
+  vertical-align: super;
+}
+
+/* 【縦組み】垂直線 */
+hr {
+  margin:       0 0.5em;
+  border-style: none solid none none;
+}
+
+.em-line {
+  text-decoration: overline;
+}
+
+.em-line-outside {
+  text-decoration: underline;
+}
+
+.h-indent-0,
+.h-indent-0em  { text-indent:   0;   padding-top:  0;   }
+.h-indent-1em  { text-indent:  -1em; padding-top:  1em; }
+.h-indent-2em  { text-indent:  -2em; padding-top:  2em; }
+.h-indent-3em  { text-indent:  -3em; padding-top:  3em; }
+.h-indent-4em  { text-indent:  -4em; padding-top:  4em; }
+.h-indent-5em  { text-indent:  -5em; padding-top:  5em; }
+.h-indent-6em  { text-indent:  -6em; padding-top:  6em; }
+.h-indent-7em  { text-indent:  -7em; padding-top:  7em; }
+.h-indent-8em  { text-indent:  -8em; padding-top:  8em; }
+.h-indent-9em  { text-indent:  -9em; padding-top:  9em; }
+.h-indent-10em { text-indent: -10em; padding-top: 10em; }
+
+.start-0,
+.start-0em   { margin-top:  0;      }
+.start-0em25 { margin-top:  0.25em; }
+.start-0em50 { margin-top:  0.50em; }
+.start-0em75 { margin-top:  0.75em; }
+.start-1em   { margin-top:  1.00em; }
+.start-1em25 { margin-top:  1.25em; }
+.start-1em50 { margin-top:  1.50em; }
+.start-1em75 { margin-top:  1.75em; }
+.start-2em   { margin-top:  2.00em; }
+.start-2em50 { margin-top:  2.50em; }
+.start-3em   { margin-top:  3.00em; }
+.start-4em   { margin-top:  4.00em; }
+.start-5em   { margin-top:  5.00em; }
+.start-6em   { margin-top:  6.00em; }
+.start-7em   { margin-top:  7.00em; }
+.start-8em   { margin-top:  8.00em; }
+.start-9em   { margin-top:  9.00em; }
+.start-10em  { margin-top: 10.00em; }
+
+.end-0,
+.end-0em   { margin-bottom:  0;      }
+.end-0em25 { margin-bottom:  0.25em; }
+.end-0em50 { margin-bottom:  0.50em; }
+.end-0em75 { margin-bottom:  0.75em; }
+.end-1em   { margin-bottom:  1.00em; }
+.end-1em25 { margin-bottom:  1.25em; }
+.end-1em50 { margin-bottom:  1.50em; }
+.end-1em75 { margin-bottom:  1.75em; }
+.end-2em   { margin-bottom:  2.00em; }
+.end-2em50 { margin-bottom:  2.50em; }
+.end-3em   { margin-bottom:  3.00em; }
+.end-4em   { margin-bottom:  4.00em; }
+.end-5em   { margin-bottom:  5.00em; }
+.end-6em   { margin-bottom:  6.00em; }
+.end-7em   { margin-bottom:  7.00em; }
+.end-8em   { margin-bottom:  8.00em; }
+.end-9em   { margin-bottom:  9.00em; }
+.end-10em  { margin-bottom: 10.00em; }

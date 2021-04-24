@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import "style-standard-vrtl.css";
+@import "style-advance-vrtl.css";
+
+/* 縦組み用 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: serif-ja-v, serif-ja, serif;
+}
+
+a {
+}
+
+a.link-01 {
+  text-decoration: none;
+}
+
+a.noteref {
+}
+
+a.note {
+}
+
+.tobira-midashi {
+}
+
+.oo-midashi {
+}
+
+.naka-midashi {
+}
+
+.ko-midashi {
+}
