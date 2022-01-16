@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package
+ xmlns="http://www.idpf.org/2007/opf"
+ version="3.0"
+ xml:lang="ja"
+ unique-identifier="unique-id"
+ prefix="rendition: http://www.idpf.org/vocab/rendition/#
+         ebpaj: http://www.ebpaj.jp/
+         fixed-layout-jp: http://www.digital-comic.jp/
+         ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/"
+>
+		<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+<!-- 作品名 -->
+		<dc:title id="title">黒死館殺人事件</dc:title>
+
+<!-- 著者名 -->
+		<dc:creator id="creator01">小栗虫太郎</dc:creator>
+<!-- 言語 -->
+		<dc:language id="pub-lang">ja</dc:language>
+<!-- ファイルid -->
+		<dc:identifier id="unique-id">urn:uuid:55c368d2-741b-3fc2-a713-b5faaa223d4c</dc:identifier>
+<!-- 更新日 -->
+		<meta property="dcterms:modified">2021-09-09T09:11:51Z</meta>
+
+<!-- etc. -->
+<meta property="ebpaj:guide-version">1.1.3</meta>
+<meta property="ibooks:version">1.1.2</meta>
+	</metadata>
+
+	<manifest>
+<!-- navigation -->
+		<item media-type="application/xhtml+xml" id="nav" href="nav.xhtml" properties="nav"/>
+<!-- style -->
+		<item id="vertical" href="style/aozora.css" media-type="text/css"/>
+		<item id="v_font" href="style/font.css" media-type="text/css"/>
+		<item id="v_text" href="style/text.css" media-type="text/css"/>
+		<item id="fixed-layout-jp" href="style/fixed-layout-jp.css" media-type="text/css"/>
+		<item id="book-style" href="style/book-style.css" media-type="text/css"/>
+		<item id="style-reset" href="style/style-reset.css" media-type="text/css"/>
+		<item id="style-standard" href="style/style-standard.css" media-type="text/css"/>
+		<item id="style-advance" href="style/style-advance.css" media-type="text/css"/>
+<!-- image -->
+		<item id="img0001" href="image/0001.png" media-type="image/png"/>
+		<item id="img0002" href="image/0002.png" media-type="image/png"/>
+		<item id="img0003" href="image/0003.png" media-type="image/png"/>
+		<item id="img0004" href="image/0004.png" media-type="image/png"/>
+		<item id="img0005" href="image/0005.png" media-type="image/png"/>
+		<item id="img0006" href="image/0006.png" media-type="image/png"/>
+		<item id="img0007" href="image/0007.png" media-type="image/png"/>
+		<item id="img0008" href="image/0008.png" media-type="image/png"/>
+		<item id="img0009" href="image/0009.png" media-type="image/png"/>
+		<item id="img0010" href="image/0010.png" media-type="image/png"/>
+		<item id="img0015" href="image/0015.png" media-type="image/png"/>
+		<item id="img0016" href="image/0016.png" media-type="image/png"/>
+		<item id="img0017" href="image/0017.png" media-type="image/png"/>
+		<item id="img0018" href="image/0018.png" media-type="image/png"/>
+		<item id="img0019" href="image/0019.png" media-type="image/png"/>
+		<item id="img0021" href="image/0021.png" media-type="image/png"/>
+		<item id="img0024" href="image/0024.png" media-type="image/png"/>
+		<item id="img0025" href="image/0025.png" media-type="image/png"/>
+		<item id="img0026" href="image/0026.png" media-type="image/png"/>
+		<item id="img0027" href="image/0027.png" media-type="image/png"/>
+		<item id="img0028" href="image/0028.png" media-type="image/png"/>
+		<item id="img0029" href="image/0029.png" media-type="image/png"/>
+		<item id="img0030" href="image/0030.png" media-type="image/png"/>
+		<item id="img0033" href="image/0033.png" media-type="image/png"/>
+		<item id="img0034" href="image/0034.png" media-type="image/png"/>
+		<item id="img0035" href="image/0035.png" media-type="image/png"/>
+		<item id="img0036" href="image/0036.png" media-type="image/png"/>
+		<item id="img0037" href="image/0037.png" media-type="image/png"/>
+		<item id="img0038" href="image/0038.png" media-type="image/png"/>
+		<item id="img0039" href="image/0039.png" media-type="image/png"/>
+		<item id="img0040" href="image/0040.png" media-type="image/png"/>
+		<item id="img0041" href="image/0041.png" media-type="image/png"/>
+		<item id="img0042" href="image/0042.png" media-type="image/png"/>
+		<item id="img0043" href="image/0043.png" media-type="image/png"/>
+		<item id="img0044" href="image/0044.png" media-type="image/png"/>
+		<item id="img0046" href="image/0046.png" media-type="image/png"/>
+		<item id="img0047" href="image/0047.png" media-type="image/png"/>
+		<item id="img0048" href="image/0048.png" media-type="image/png"/>
+		<item id="img0049" href="image/0049.png" media-type="image/png"/>
+		<item id="img0050" href="image/0050.png" media-type="image/png"/>
+		<item id="img0051" href="image/0051.png" media-type="image/png"/>
+		<item id="img0052" href="image/0052.png" media-type="image/png"/>
+		<item id="img0053" href="image/0053.png" media-type="image/png"/>
+		<item id="img0054" href="image/0054.png" media-type="image/png"/>
+		<item id="img0055" href="image/0055.png" media-type="image/png"/>
+		<item id="img0056" href="image/0056.png" media-type="image/png"/>
+		<item id="img0057" href="image/0057.png" media-type="image/png"/>
+		<item id="img0058" href="image/0058.png" media-type="image/png"/>
+		<item id="img0059" href="image/0059.png" media-type="image/png"/>
+<!-- xhtml -->
+		<item id="title-page" href="xhtml/title.xhtml" media-type="application/xhtml+xml"/>
+
+		<item id="sec0001" href="xhtml/0001.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0002" href="xhtml/0002.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0003" href="xhtml/0003.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0004" href="xhtml/0004.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0005" href="xhtml/0005.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0006" href="xhtml/0006.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0007" href="xhtml/0007.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0008" href="xhtml/0008.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0009" href="xhtml/0009.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0010" href="xhtml/0010.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0011" href="xhtml/0011.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0012" href="xhtml/0012.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0013" href="xhtml/0013.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0014" href="xhtml/0014.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0015" href="xhtml/0015.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0016" href="xhtml/0016.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0017" href="xhtml/0017.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0018" href="xhtml/0018.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0019" href="xhtml/0019.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0020" href="xhtml/0020.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0021" href="xhtml/0021.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0022" href="xhtml/0022.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0023" href="xhtml/0023.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0024" href="xhtml/0024.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0025" href="xhtml/0025.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0026" href="xhtml/0026.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0027" href="xhtml/0027.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0028" href="xhtml/0028.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0029" href="xhtml/0029.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0030" href="xhtml/0030.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0031" href="xhtml/0031.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0032" href="xhtml/0032.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0033" href="xhtml/0033.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0034" href="xhtml/0034.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0035" href="xhtml/0035.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0036" href="xhtml/0036.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0037" href="xhtml/0037.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0038" href="xhtml/0038.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0039" href="xhtml/0039.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0040" href="xhtml/0040.xhtml" media-type="application/xhtml+xml"/>
+		<item id="sec0041" href="xhtml/0041.xhtml" media-type="application/xhtml+xml"/>
+		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+	</manifest>
+
+	<spine page-progression-direction="rtl" toc="ncx">
+		<itemref idref="title-page" linear="yes"/>
+
+		<itemref linear="yes" idref="sec0001"/>
+		<itemref linear="yes" idref="sec0002"/>
+		<itemref linear="yes" idref="sec0003"/>
+		<itemref linear="yes" idref="sec0004"/>
+		<itemref linear="yes" idref="sec0005"/>
+		<itemref linear="yes" idref="sec0006"/>
+		<itemref linear="yes" idref="sec0007"/>
+		<itemref linear="yes" idref="sec0008"/>
+		<itemref linear="yes" idref="sec0009"/>
+		<itemref linear="yes" idref="sec0010"/>
+		<itemref linear="yes" idref="sec0011"/>
+		<itemref linear="yes" idref="sec0012"/>
+		<itemref linear="yes" idref="sec0013"/>
+		<itemref linear="yes" idref="sec0014"/>
+		<itemref linear="yes" idref="sec0015"/>
+		<itemref linear="yes" idref="sec0016"/>
+		<itemref linear="yes" idref="sec0017"/>
+		<itemref linear="yes" idref="sec0018"/>
+		<itemref linear="yes" idref="sec0019"/>
+		<itemref linear="yes" idref="sec0020"/>
+		<itemref linear="yes" idref="sec0021"/>
+		<itemref linear="yes" idref="sec0022"/>
+		<itemref linear="yes" idref="sec0023"/>
+		<itemref linear="yes" idref="sec0024"/>
+		<itemref linear="yes" idref="sec0025"/>
+		<itemref linear="yes" idref="sec0026"/>
+		<itemref linear="yes" idref="sec0027"/>
+		<itemref linear="yes" idref="sec0028"/>
+		<itemref linear="yes" idref="sec0029"/>
+		<itemref linear="yes" idref="sec0030"/>
+		<itemref linear="yes" idref="sec0031"/>
+		<itemref linear="yes" idref="sec0032"/>
+		<itemref linear="yes" idref="sec0033"/>
+		<itemref linear="yes" idref="sec0034"/>
+		<itemref linear="yes" idref="sec0035"/>
+		<itemref linear="yes" idref="sec0036"/>
+		<itemref linear="yes" idref="sec0037"/>
+		<itemref linear="yes" idref="sec0038"/>
+		<itemref linear="yes" idref="sec0039"/>
+		<itemref linear="yes" idref="sec0040"/>
+		<itemref linear="yes" idref="sec0041"/>
+	</spine>
+
+</package>
